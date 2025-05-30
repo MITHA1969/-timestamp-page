@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <title>Χρονοσήμανση Σάρωσης</title>
+</head>
+<body>
+  <h1>Η σάρωση έγινε στις:</h1>
+  <p id="timestamp"></p>
+
+  <script>
+    const now = new Date();
+    document.getElementById("timestamp").textContent = now.toLocaleString();
+  </script>
+</body>
+</html>
